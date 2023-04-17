@@ -45,5 +45,11 @@ class Control:
         try:
            if (a==0):
                 raise Exception("Base Error")
+<<<<<<< HEAD
         return pow(a, b)
 >>>>>>> aa5c67c (modify pow function to check base)
+=======
+        except Exception as e:
+            return e
+        return pow(a, b)
+>>>>>>> 729acf0 (modify pow function using exception)
